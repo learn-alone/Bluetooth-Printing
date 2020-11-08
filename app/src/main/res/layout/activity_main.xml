@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".MainActivity">
+  <TextView
+      android:background="#C0C0C0"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:paddingTop="10dp"
+      android:textColor="@color/white"
+      android:gravity="center_horizontal"
+      android:text="Fill the Details" />
+
+  <EditText
+
+      android:textSize="15dp"
+      android:id="@+id/Euser_name"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:gravity="bottom"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.1"
+      android:ems="10"
+      android:hint="Full Name(Required)*"
+       />
+
+  <EditText
+
+      android:textSize="15dp"
+      android:id="@+id/Ehouse"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.1"
+      android:ems="10"
+      android:gravity="bottom"
+      android:hint="House No,Building Name (Required)*"
+      android:inputType="textMultiLine" />
+
+
+  <EditText
+      android:textSize="15dp"
+      android:id="@+id/Eroad"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.1"
+      android:ems="10"
+      android:gravity="bottom"
+      android:hint="Road Name, Area, Colony (Required)*"
+      android:inputType="textMultiLine" />
+
+  <EditText
+
+      android:textSize="15dp"
+      android:id="@+id/Elandmark"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.1"
+      android:ems="10"
+      android:gravity="bottom"
+      android:hint="Landmark (Optional)"
+      android:inputType="textMultiLine" />
+
+  <EditText
+      android:textSize="15dp"
+      android:id="@+id/Epincode"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.06"
+      android:ems="10"
+      android:gravity="bottom"
+      android:hint="Pincode (Required)*"
+      android:inputType="number"
+      android:maxLength="6"
+      />
+
+  <EditText
+      android:textSize="15dp"
+      android:id="@+id/Ephone"
+      android:layout_width="match_parent"
+      android:layout_height="5dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_weight="0.06"
+      android:ems="10"
+      android:gravity="bottom"
+      android:hint="Phone (Required)*"
+      android:inputType="phone"
+      android:maxLength="10" />
+
+  <Button
+
+      android:id="@+id/config"
+      android:layout_width="match_parent"
+      android:layout_height="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_weight="0.08"
+      android:text="Pair/Unpair"
+      android:textAllCaps="false"
+      android:textColor="@color/white"
+      android:textSize="18dp" />
+
+  <Button
+
+      android:id="@+id/Printbtn"
+      android:layout_width="match_parent"
+      android:layout_height="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_weight="0.08"
+      android:text="Print"
+      android:textAllCaps="false"
+      android:textColor="@color/white"
+      android:textSize="18dp" />
+
+
+</LinearLayout>
